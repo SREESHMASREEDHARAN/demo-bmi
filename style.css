@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ebf7fa;
+}
+h1{
+    color: #00008B;
+}
+
+#bmi-form {
+    margin: 20px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #00008B;
+   
+    
+    
+}
+.wh{
+    display: flex;
+}
+
+#age{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 2px solid #00008B;
+}
+
+input[type="radio"] {
+    margin: 5px 10px;
+    border: 2px solid #00008B;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00008B;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 10px;
+}
+#weight{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+#height{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+}
